@@ -1,3 +1,5 @@
+Implemented the A-star search algorithm in Typescript. User can select size of the grid and density of the obstacles. Then once start and goal points are selected, the algorithm will find the shortest path. 
+
 Instructions to run:
 
 1) Change the file path on line 7 in index.html to the location on your computer 
