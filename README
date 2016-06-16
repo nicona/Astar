@@ -1,0 +1,8 @@
+Instructions to run:
+
+1) Change the file path on line 7 in index.html to the location on your computer 
+where you store the folder.
+
+2)Compile by typing: tsc finalAstar.ts
+
+3) Open index.html and create the map. 

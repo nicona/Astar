@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nico's A* Implementation</title>
+    <link rel="stylesheet" type="text/css" href="astar.css">
+    <script type="text/javascript" src="/Users/niconagel/Desktop/Astar/finalAstar.js"></script>
+</head>
+<div class="headerStyle">Nico's A* Implementation</div>
+
+<body class="pageStyle">
+    <div>
+        <div>
+            <input type="text" id="sizeX" placeholder="Enter map height here:" class="inputBox"></input>
+        </div>
+        <div>
+            <input type="text" id="sizeY" placeholder="Enter map width here:" class="inputBox"></input>
+        </div>
+        <div>
+            <input type="text" id="density" placeholder="Enter wall density:" class="inputBox"></input>
+        </div>
+        <div>
+            <input type="text" id="gCost" placeholder="Normal step cost:" class="inputBox"></input>
+        </div>
+        <div>
+            <input type="button" onclick="firstClick()" onkeypress="createWorldByKey(event)" value="New World" class="buttonClass">
+            <p id="timeTaken"></p>
+        </div>
+        <div>
+            <canvas id="gameMap" onmousedown="mapIsClicked(event)"></canvas>
+        </div>
+    </div>
+</body>
+
+</html>
